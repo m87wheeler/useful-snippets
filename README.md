@@ -67,3 +67,13 @@ export default class MyDocument extends Document {
 lsof -i tcp:<PORT NUMBER>
 kill -9 <PID>
 ```
+
+### Typescript hasOwnProperty Typed
+```javascript
+function hasOwnProperty<X extends {}, Y extends PropertyKey>(
+  obj: X,
+  prop: Y
+): obj is X & Record<Y, unknown> {
+  return obj.hasOwnProperty(prop);
+}
+```
