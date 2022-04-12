@@ -12,7 +12,7 @@
 1. Install `babel-plugin-styled-components`
 
 ```shell
-npm -i -D babel-plugin-styled-components
+npm i -D babel-plugin-styled-components
 ```
 
 2. Create a `.babelrc` file at the root of the directory and add:
