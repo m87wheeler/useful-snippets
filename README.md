@@ -20,7 +20,7 @@ npm i -D babel-plugin-styled-components
 ```json
 {
   "presets": ["next/babel"],
-  "plugins": [["styled-components", { "ssr": true }]]
+  "plugins": [["babel-plugin-styled-components", { "ssr": true }]]
 }
 ```
 
